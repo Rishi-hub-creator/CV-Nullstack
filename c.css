@@ -1,0 +1,182 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: #333;
+}
+
+#workspace
+{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 90%;
+    margin: 30px auto 10px auto;
+    background: #eee;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+#heading
+{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#top_info
+{
+    display: block;
+    position: relative;
+    height: 150px;
+    width: 100%;
+    margin: 60px auto 0 auto;
+}
+
+#personal_info, #my_photo
+{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+#personal_info
+{
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+#personal_info ul.personal_info
+{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 70%;
+    list-style: none;
+    margin: 0px auto;
+}
+
+#personal_info ul.personal_info li
+{
+    display: block;
+    position: relative;
+    height: auto;
+    padding: 0px 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#my_photo img
+{
+    margin: auto;
+    display: block;
+}
+
+#topics
+{
+    display: block;
+    position: relative;
+    height: auto;
+    width: 85%;
+    margin: 0px auto;
+}
+
+#topics span
+{
+    display: block;
+    font-weight: bold;
+    font-size: 22.5px;
+    text-decoration: underline;
+    margin: 20px auto 0px auto;
+}
+
+#topics span.objective
+{
+    margin: 50px auto 0px auto;
+}
+
+#topics ul
+{
+    display: block;
+    margin: 10px auto 0px auto;
+    list-style: circle inside;
+}
+
+#topics ul.objective
+{
+    list-style: none;
+}
+
+#topics ul li
+{
+    font-size: 18px;
+}
+
+#topics ul li a
+{
+    text-decoration: none;
+}
+
+#topics table
+{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    border-spacing: 5px;
+}
+
+#topics table th, #topics table td
+{
+    padding: 5px;
+    text-align: center;
+}
+
+#topics table th
+{
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: #9c988f;
+}
+
+#topics table td
+{
+    font-size: 18px;
+}
+
+#topics table tr:nth-child(even)
+{
+    background-color: #fff;
+}
+
+#topics table tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+
+#topics marquee
+{
+    margin: 10px 0px 0px 0px;
+}
+
+#topics marquee a
+{
+    text-decoration: none;
+}
+
+#topics marquee a img
+{
+    height: 200px;
+    width: 350px;
+}
